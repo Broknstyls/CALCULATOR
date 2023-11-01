@@ -1,4 +1,6 @@
 #body{
-    background-color: aliceblue;
+    display: flex;
+    background-color: rgb(27, 24, 23);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
 }

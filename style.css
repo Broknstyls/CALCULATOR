@@ -10,7 +10,7 @@ html{
     background-color: rgb(45, 46, 46);
     align-items: center;
     padding: 20px;
-    margin: 0 auto;
+    margin: auto 0;
 }
 button{
     border-radius: 4px;

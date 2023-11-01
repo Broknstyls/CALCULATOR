@@ -16,3 +16,6 @@ button{
     background-color: rgb(84, 90, 95);
     color: aliceblue;
 }
+#display{
+    padding: 14px;
+}

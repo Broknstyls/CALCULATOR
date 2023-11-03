@@ -36,3 +36,12 @@ let divide = document.getElementById('divide').onclick=
                 let answer = document.getElementById('display').textContent
                 document.getElementById('display').textContent = answer + 7 }
         }
+        let eight = document.getElementById('8').onclick=
+            function(){
+                    if(document.getElementById('display').textContent == 'Hello There!'){
+                        document.getElementById('display').textContent = 8
+                    } else{
+                            let answer = document.getElementById('display').textContent;
+                            document.getElementById('display').textContent = answer + 8;
+                    }
+            }

@@ -9,12 +9,8 @@ function() {
         if(document.getElementById('display').textContent == 'Hello There!'){
             document.getElementById('display').textContent = '%'
         }
-        else if(
-            document.getElementById('display').textContent == '%'
-        ){
-            let repeat = '%'
-            document.getElementById('display').textContent = repeat + '%'
-        } else{
+         else{
+            let answer = document.getElementById('display').textContent;
         document.getElementById('display').textContent =  answer + '%';}
     } 
 let divide = document.getElementById('divide').onclick=

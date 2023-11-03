@@ -38,10 +38,20 @@ let divide = document.getElementById('divide').onclick=
         }
         let eight = document.getElementById('8').onclick=
             function(){
-                    if(document.getElementById('display').textContent == 'Hello There!'){
+                    if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent == 0){
                         document.getElementById('display').textContent = 8
                     } else{
                             let answer = document.getElementById('display').textContent;
                             document.getElementById('display').textContent = answer + 8;
                     }
             }
+        let nine = document.getElementById('9').onclick=
+            function(){
+                if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent == 0){
+                    document.getElementById('display').textContent = 9;
+                }else{
+                    let answer = document.getElementById('display').textContent;
+                    document.getElementById('display').textContent = answer + 9;
+                }
+            }
+        let multiply = document.getElementById('').onclick=

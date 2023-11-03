@@ -137,7 +137,7 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = answer + 0;
             }
         }
-        let decimal = document.getElementById('display').onclick = function(){
+        let decimal = document.getElementById('decimal').onclick = function(){
             if(document.getElementById('display').textContent == 'Hello World!'){
                 document.getElementById('display').textContent = '.'
             }else{

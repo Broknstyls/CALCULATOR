@@ -70,39 +70,5 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = 4;
             }else{
                 let answer = document.getElementById('display').textContent;
-                document.getElementById('display').textContent = answer + 4;
+                document.getElementById('display').textContent = answer + 4
             }}
-        let five = document.getElementById('5').onclick =
-        function(){
-            if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent == 0){
-                document.getElementById('display').textContent = 5;
-            } else{
-               let answer = document.getElementById('display').textContent;
-               document.getElementById('display').textContent = answer + 5;
-            }
-        }
-        let six = document.getElementById('6').onclick=
-            function(){
-                if(document.getElementById('display').textContent == 'Hello There!'|| document.getElementById('display').textContent == 0){
-                    document.getElementById('display').textContent = 6;
-                } else{
-                  let answer = document.getElementById('display').textContent;
-                  document.getElementById('display').textContent = answer + 6;
-                }
-            }
-        let minus = document.getElementById('minus').onclick=function(){
-            if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent == 0){
-                document.getElementById('display').textContent = '-';
-            } else{
-                let answer = document.getElementById('display').textContent;
-                document.getElementById('display').textContent = answer + '-';
-            }
-        }
-        let one = document.getElementById('1').onclick = function(){
-            if(document.getElementById('display').textContent == 'Hello There!'|| document.getElementById('display').textContent == 0){
-                document.getElementById('display').textContent = 1
-            } else{
-                let answer = document.getElementById('display').textContent;
-                document.getElementById('display').textContent = answer + 1;
-            }
-        }

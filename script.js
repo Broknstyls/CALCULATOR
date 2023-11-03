@@ -121,3 +121,11 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = answer + 3;
             }
         }
+        let add = document.getElementById('add').onclick = function(){
+            if(document.getElementById('display').textContent == 'Hello World!'|| document.getElementById('display').textContent== 0){
+                document.getElementById('display').textContent = '+';
+            } else{
+                let answer = document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + '+';
+            }
+        }

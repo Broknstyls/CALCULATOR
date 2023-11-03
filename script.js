@@ -27,6 +27,7 @@ let divide = document.getElementById('divide').onclick=
             document.getElementById('display').textContent = repeat + '/'
         }
         else{
+            let answer = document.getElementById('display').textContent;
             document.getElementById('display').textContent = answer + '/'
         }
     }

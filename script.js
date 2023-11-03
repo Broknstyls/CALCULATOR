@@ -129,3 +129,19 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = answer + '+';
             }
         }
+        let zero = document.getElementById('0').onclick = function(){
+            if(document.getElementById('display').textContent == 'Hello World!'){
+                document.getElementById('display').textContent = 0;
+            }else{
+                let answer = document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + 0;
+            }
+        }
+        let decimal = document.getElementById('display').onclick = function(){
+            if(document.getElementById('display').textContent == 'Hello World!'){
+                document.getElementById('display').textContent = '.'
+            }else{
+                let answer = document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + '.'
+            }
+        }

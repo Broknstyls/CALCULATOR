@@ -145,3 +145,6 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = answer + '.'
             }
         }
+        let equals = document.getElementById('equals').onclick = function(){
+            document.getElementById('display').textContent = eval(document.getElementById('display').textContent)
+        }

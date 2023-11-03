@@ -112,5 +112,12 @@ let divide = document.getElementById('divide').onclick=
             } else{
                 let answer =document.getElementById('display').textContent;
                 document.getElementById('display').textContent = answer + 2;
+            }}
+        let three = document.getElementById('3').onclick = function(){
+            if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent== 0)
+            {document.getElementById('display').textContent = 3;}
+            else{
+                let answer = document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + 3;
             }
         }

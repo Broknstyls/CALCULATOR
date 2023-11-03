@@ -106,3 +106,11 @@ let divide = document.getElementById('divide').onclick=
                 document.getElementById('display').textContent = answer + 1;
             }
         }
+        let two = document.getElementById('2').onclick = function(){
+            if(document.getElementById('display').textContent == 'Hello There!'||document.getElementById('display').textContent == 0){
+                document.getElementById('display').textContent = 2;
+            } else{
+                let answer =document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + 2;
+            }
+        }

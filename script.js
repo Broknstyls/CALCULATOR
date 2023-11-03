@@ -54,4 +54,21 @@ let divide = document.getElementById('divide').onclick=
                     document.getElementById('display').textContent = answer + 9;
                 }
             }
-        let multiply = document.getElementById('').onclick=
+        let multiply = document.getElementById('multiply').onclick=
+            function(){
+                if(document.getElementById('display').textContent == 'Hello There!'|| document.getElementById('display').textContent == 0){
+                    document.getElementById('display').textContent = '*'
+                } else{
+                    let answer = document.getElementById('display').textContent;
+                    document.getElementById('display').textContent = answer + '*'
+                }
+            }
+        let four = document.getElementById('4').onclick=
+            function(){
+                if(document.getElementById('display').textContent == 'Hello There!' || document.getElementById('display').textContent == 0)
+            {
+                document.getElementById('display').textContent = 4;
+            }else{
+                let answer = document.getElementById('display').textContent;
+                document.getElementById('display').textContent = answer + 4
+            }}
